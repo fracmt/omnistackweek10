@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -36,7 +37,19 @@ function App() {
         </form>
       </aside>
       <main>
-
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/7252021?v=4" alt="fracmt" />
+              <div className="user-info">
+                <strong>Francisco Torres</strong>
+                <span>PHP, Javascript, Java</span>
+              </div>
+            </header>
+            <p>Software Engineer Software Engineer Software Engineer Software Engineer Software Engineer Software Engineer Software Engineer</p>
+            <a href="http://github.com/fracmt">GitHub profile</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
